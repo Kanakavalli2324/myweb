@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8"/>
+        <title>REVIEW PAGE</title>
+    </head>
+    <body>
+        <header>
+            <h1>Review about us!!</h1>
+        </header>
+        <form>
+            <label>
+                Your name:
+                <input type="text" name="name">
+            </label>
+            <br>
+            <label for="email"><h4 align="left">EmailAddress:</h4></label>
+            <input id="email" type="email" name="email">
+            <br>
+            <label for="Birth">Birth of Date:</label>
+            <input id="Birth" type="date" name="birth">
+            <fieldset>
+             <legend>Gender:</legend> 
+             <input id="gender" type="radio" name="gender"><label for="gender">male</label>
+             <input id="female" type="radio" name="female"><label for="female">female</label>
+             <input id="others" type="radio" name="other"><label for="others">others</label>
+            </fieldset>
+            <label for="country">Country:</label>
+            <select id="country" name="country" value="country">
+                <option>Afghanistan</option>
+                <option>Albania</option>
+                <option> Algeria </option>
+                <option>India</option>
+                <option>Suriname</option>
+                <option>Sweden</option>
+                <option>Switzerland</option>
+                <option>Syria</option>
+                <option>Taiwan</option>
+                <option>Tajikistan</option>
+                <option>Tanzania</option>
+                <option>Thailand</option>
+                <option>Vanuatu</option>
+                <option>Vatican City</option>
+                <option>Venezuela</option>
+                <option>Vietnam</option>
+                <option>Yemen</option>
+                <option>Zambia</option>
+                <option>Zimbabwe</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>How was your experience:</legend>
+                <input id="gud" type="checkbox" name="good"><label for="gud">Good</label>
+                <input id="bad" type="checkbox" name="bad"><label for="bad">Bad</label>
+            </fieldset>
+            <br>
+            <label for="experience">Tell us your experience so that we can improve!!</label>
+            <textarea id="experience">
+            </textarea>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+        <a href="index.html"><b>Go back to home page</b></a>
+    </body>
+</html>
